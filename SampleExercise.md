@@ -18,7 +18,7 @@ Previously, we applied the preprocessing and data preparation routines for getti
 ## Exercise: Performing eigendecomposition for PCA 
 
 ```python
-# 1. Eigendecomposition - resturning eigenvectors and eigenvalues
+# 1. Eigendecomposition - returning eigenvectors and eigenvalues
 eigen_value, eigen_vector = _____(_____)
 
 # 2. Make a list of (eigenvalue, eigenvector) tuples
@@ -38,7 +38,7 @@ transformed = dk_matrix.T.dot(samples)
 ## Solution
 
 ```python
-# 1. Eigendecomposition - resturning eigenvectors and eigenvalues
+# 1. Eigendecomposition - returning eigenvectors and eigenvalues
 eigen_value, eigen_vector = np.linalg.eig(cov_matrix)
 
 # 2. Make a list of (eigenvalue, eigenvector) tuples
