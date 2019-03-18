@@ -2,6 +2,8 @@
 # Sample Exercise
 (From section 3.3 in the Course outline)
 
+**Note:** *Sample exercise is slightly longer than outlined in the task brief. The exercise contains 5 bulleted instructions (instead of 4), covering 3 learning objectives (instead of 1 or 2) from section 3.3 in the course outline. This was decided to allow practicing the standard 5-step PCA process as highlighted in PCA literature using a single exercise. If required, this exercise can be borken down into two separate exercises.*
+
 ### Introduction: 
 Previously, we applied the preprocessing and data preparation routines for getting our 3 dimensional toy dataset (`samples`) ready for PCA. After Calculating the mean vector `mean_vector` and covariance matrix `cov_matrix` in the previous exercise, we are now ready for perform PCA for reducing the number of dimensions in our dataset from 3 to 2. This involves a series of 5 steps as listed below: 
 
