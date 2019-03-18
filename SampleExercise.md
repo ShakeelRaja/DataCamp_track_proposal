@@ -3,7 +3,7 @@
 (From section 3.3 in the Course outline)
 
 ### Introduction: 
-Previously, we applied the preprocessing and data preparation routines for getting out sample 3 dimensional data `samples` ready for PCA. After Calculating the mean vector `mean_vector` and covariance matrix `cov_matrix` in the previous exercise, we are now ready for perform PCA for reducing the number of dimensions in our dataset from 3 to 2. This involves a series of 5 steps as listed below: 
+Previously, we applied the preprocessing and data preparation routines for getting our 3 dimensional toy dataset (`samples`) ready for PCA. After Calculating the mean vector `mean_vector` and covariance matrix `cov_matrix` in the previous exercise, we are now ready for perform PCA for reducing the number of dimensions in our dataset from 3 to 2. This involves a series of 5 steps as listed below: 
 
 1. Perform eigendecomposition of the covariance matrix using `np.linalg.eig` to calculate eigen components i.e. `eigen_value` and `eigen_vector`. 
 
